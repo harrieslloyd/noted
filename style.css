@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+body {
+  background-color: white
+}
+
+input {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: transparent;
+  width: 100%;
+  padding: 20px;
+  color: #1c87d4;
+  font-size: 15px;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+input::placeholder {
+  color: #1c87d4;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+input:focus {
+    outline: none;
+}
