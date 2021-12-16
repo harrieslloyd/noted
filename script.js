@@ -21,9 +21,11 @@ function setNote() {
 }
 
 function checkCookies() {
-  const str = document.cookie
-  const words = str.split('=');
-  const note = words[1];
-  document.getElementById('noteInput').value = note
+  if(document.cookie != '') {
+      const str = document.cookie
+    const words = str.split('=');
+    const note = words[1];
+    document.getElementById('noteInput').value = note
+  }
 }
 
